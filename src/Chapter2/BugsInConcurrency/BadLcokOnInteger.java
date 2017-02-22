@@ -6,7 +6,7 @@ package Chapter2.BugsInConcurrency;
  * @author ZhouDaxia
  * @create 2017-02-21-19:54
  */
-public class BadLcokOnInteger implements Runnable {
+public class BadLcokOnInteger implements Runnable {  //fe
     public static Integer i = 0;
     static BadLcokOnInteger instance = new BadLcokOnInteger();
 
